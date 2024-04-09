@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gve-devnet-nxos-update-acl-from-fqdn"
+version = "0.1.0"
+description = "Update Cisco Nexus ACL entries periodically from FQDN lookup using on-box Python"
+authors = ["Matt Schmitz <mattsc@cisco.com>"]
+license = "Cisco Sample Code License, Version 1.1"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
